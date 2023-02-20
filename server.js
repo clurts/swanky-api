@@ -7,8 +7,10 @@ const router = jsonServer.router('db.json')
 const port = process.env.PORT || 4000;
 
 
-// /!\ Bind the router db to the app
-app.db = router.db
+// Make sure to use the default middleware
+const middlewares = jsonServer.defaults();
+
+server.use(middlewares);
 
 const rules = auth.rewriter({
     '/api/*': '/$1',
