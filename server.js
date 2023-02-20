@@ -10,7 +10,7 @@ const port = process.env.PORT || 4000;
 // Make sure to use the default middleware
 const middlewares = jsonServer.defaults();
 
-server.use(middlewares);
+app.use(middlewares);
 
 const rules = auth.rewriter({
     '/api/*': '/$1',
