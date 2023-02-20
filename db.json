@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "email": "clu@rts.dk",
+      "password": "$2a$10$bbeRYksb2wHNhyc3Zeq9aOSVM0gIJ2qbnqD.PCQqbA/RTw2jqfbQS",
+      "id": 1
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "body": "some message",
+      "userId": 1
+    }
+  ],
+  "secrets": [
+    {
+        "id": 1001,
+        "body": "It's still a secret, but don't tell anyone! Pretend like you know! "
+    }
+  ]
+
+}
