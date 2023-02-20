@@ -25,3 +25,5 @@ app.use(router)
 app.listen(port, () => {
     console.log("Server is ready for requests on port " + port)
 })
+
+module.exports = app
