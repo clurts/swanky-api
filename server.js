@@ -11,6 +11,7 @@ const port = process.env.PORT || 4000;
 app.db = router.db
 
 const rules = auth.rewriter({
+    '/api/*': '/$1',
     // Permission rules
     users: 600,
     messages: 664,
