@@ -2,60 +2,59 @@
   "users": [
     {
       "id": 1,
-      "email": "clu@rts.dk",
-      "password": "$2a$10$bbeRYksb2wHNhyc3Zeq9aOSVM0gIJ2qbnqD.PCQqbA/RTw2jqfbQS"
-    }
-  ],
-  "favorites": [
-    {
-      "id": 2001,
-      "user": 1,
-      "productId": 502
+      "email": "clu@mail.dk",
+      "username": "Carsten",
+      "password": "$2a$10$bbeRYksb2wHNhyc3Zeq9aOSVM0gIJ2qbnqD.PCQqbA/RTw2jqfbQS",
+      "name": "Carsten Lund"
     },
     {
-      "id": 2002,
-      "user": 1,
-      "productId": 505
-    }
-  ],
-  "messages": [
-    {
-      "id": 1,
-      "body": "some message",
-      "userId": 1
-    }
-  ],
-  "products": [
-    {
-      "id": 501,
-      "name": "product a",
-      "description": "lorem ipisum dolor set amet"
-    },
-    {
-      "id": 502,
-      "name": "product b",
-      "description": "lorem ipisum dolor set amet"
-    },
-    {
-      "id": 503,
-      "name": "product c",
-      "description": "lorem ipisum dolor set amet"
-    },
-    {
-      "id": 504,
-      "name": "product d",
-      "description": "lorem ipisum dolor set amet"
-    },
-    {
-      "id": 505,
-      "name": "product e",
-      "description": "lorem ipisum dolor set amet"
+      "email": "be@rts.dk",
+      "password": "$2a$10$UfP6k.L1l0g2bVXilU1m4.urko74nX91sSxAmyMexBAexh5kHrdmK",
+      "id": 2
     }
   ],
   "secrets": [
     {
       "id": 1001,
-      "body": "It's still a secret, but don't tell anyone! Pretend like you know! "
+      "quote": "Three may keep a secret, if two of them are dead.",
+      "author": "Benjamin Franklin",
+      "origin": "Poor Richard's Almanack"
+    },
+    {
+      "id": 1002,
+      "quote": "If you want to keep a secret, you must also hide it from yourself.",
+      "author": "George Orwell",
+      "origin": "1984"
+    },
+    {
+      "id": 1003,
+      "quote": "Secrets, silent, stony sit in the dark palaces of both our hearts: secrets weary of their tyranny: tyrants willing to be dethroned.",
+      "author": "James Joyce",
+      "origin": "Ulysses"
+    },
+    {
+      "id": 1004,
+      "quote": "We dance round in a ring and suppose, but the secret sits in the middle and knows.",
+      "author": "Robert Frost",
+      "origin": "The Secret Sits"
+    }
+  ],
+  "statements": [
+    {
+      "id": 2001,
+      "sentence": "This coffee shop is cozy."
+    },
+    {
+      "id": 2002,
+      "sentence": "It is never too late to learn."
+    },
+    {
+      "id": 2003,
+      "sentence": "These socks do not match."
+    },
+    {
+      "id": 2004,
+      "sentence": "I am interested in music."
     }
   ]
 }

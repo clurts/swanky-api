@@ -1,4 +1,4 @@
-const jsonServer = require("json-server");
+const jsonServer = require("json-server-relationship");
 const auth = require("json-server-auth");
 
 const app = jsonServer.create();
@@ -13,13 +13,11 @@ app.db = router.db;
 const middlewares = jsonServer.defaults();
 
 app.use(middlewares);
+app.use(jsonServer.bodyParser);
 
 const rules = auth.rewriter({
-  "/api/*": "/$1",
   // Permission rules
   users: 600,
-  messages: 664,
-  products: 444,
   secrets: 660,
 });
 
